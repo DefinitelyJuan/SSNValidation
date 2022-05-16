@@ -20,6 +20,7 @@ Go to https://github.com/DefinitelyJuan/SSNValidation and click the green button
 ### Using the application
 
 Inside the SSNValidation-master folder, open the terminal and write the following command: 
+
     python3 SSN.py
 
  You will be prompted to enter an SSN number. After you do so, press enter. The program will validate if what you entered is valid, and then it will tell you through command-line the result of the validation process.
