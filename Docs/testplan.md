@@ -6,6 +6,14 @@
 
 ### Tests
 #### Unit tests
+##### Preconditions
+The tests will be run using an Ubuntu 22 virtual machine. The test will be performed automatically, running the test script from located inside the "tests" of the project, using the following script in the command line: 
+
+	python3 -m unittest tests.test 
+	
+You shall be pointing to the root folder of the project before doing so.
+
+##### Test List
 
 |     #     |     Objective                                                                                        |     Input       |     Expected Result                                                                            |   |
 |-----------|------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------|---|
@@ -23,3 +31,16 @@
 |        12 |     Check result after   entering a valid string                                                     | 326-31-2376     |     Prompt user that the   input is valid.                                                     |   |
 
 #### End to end 
+
+##### E-E 1
+##### Preconditions
+Use the VM to conduct the test. The test will be done manually by the tester.
+###### Objective
+ Assure that the whole application and its features are working correctly.
+###### Steps
+
+| # | Description                                                                 | Expected Result                                         |
+|---|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| 1 | Run ssn.py from console (you have   to be in the project's root directory). | Command line window should open   and show the program. |
+| 2 | Give "string" as the   input. System should ask to repeat the process.      | Prompt user the user to re-enter   the SSN number.      |
+| 3 | Give "132-86-8765" as   the input                                           | Prompt user that the input is   valid                   |
