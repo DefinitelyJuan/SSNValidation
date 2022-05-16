@@ -5,9 +5,9 @@ The following document has the purpose of guiding the end-user through download,
 
 ### Before starting
 
-In order to use the application, you should have Python 3.7.8 installed on your machine. To do so,do the following:
+In order to use the application, you should have Python 3.7.8 or a compatible Python version installed on your machine. To do so, do the following:
 #### If you are on windows...
- Go to https://www.python.org/, click on "**Downloads**". Then, on the "**Looking for a specific release?**" section, scroll till you find the 3.7.8 release version (you can also use your browsers page search function and look for 3.7.8), then click on "Download". Scroll down to the "**Files**" section, and click "Windows x86-64 executable installer". When the download finishes, open the installer and follow the instructions carefully. After you finish, open a command line window (hit windows key, then write cmd then enter) and write "python", then hit enter. You should see "Python 3.7.8..." on your screen if it was correctly installed.
+ Go to https://www.python.org/, click on "**Downloads**". Then, on the "**Looking for a specific release?**" section, scroll till you find the 3.7.8 release version (you can also use your browsers page search function and look for 3.7.8), then click on "**Download**". Scroll down to the "**Files**" section, and click "**Windows x86-64 executable installer**". When the download finishes, open the installer and follow the instructions carefully. After you finish, open a command line window (hit windows key, then write cmd then enter) and write "python", then hit enter. You should see "Python 3.7.8..." on your screen if it was correctly installed.
 #### If you are on linux...
 You should first open the terminal and write "python3", to check if python is included with your distro. You should see "Python X.X.X..." on your screen if it is installed. If not, write the following command on the terminal: 
     sudo apt-get install python3
@@ -20,6 +20,7 @@ Go to https://github.com/DefinitelyJuan/SSNValidation and click the green button
 ### Using the application
 
 Inside the SSNValidation-master folder, open the terminal and write the following command: 
+
     python3 SSN.py
 
  You will be prompted to enter an SSN number. After you do so, press enter. The program will validate if what you entered is valid, and then it will tell you through command-line the result of the validation process.
