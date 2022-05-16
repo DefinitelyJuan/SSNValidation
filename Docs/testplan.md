@@ -32,7 +32,6 @@ You shall be pointing to the root folder of the project before doing so.
 
 #### End to end 
 
-##### E-E 1
 ##### Preconditions
 Use the VM to conduct the test. The test will be done manually by the tester.
 ###### Objective
