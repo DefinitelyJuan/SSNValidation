@@ -7,17 +7,17 @@ def ValidateSSN(ssn : str):
     else:
         return False
 
+if (__name__ == "__main__"): #Only runs if started as main 
+    print("Welcome to the SSN Validator! \nMade by Juan Avila ID 1100378")
+    while(True):
+        ssn = input("Write the SSN number you want to validate: ")
+        if(ValidateSSN(ssn)):
+            print(f"{ssn} is a valid Social Security Number") #if its valid then we tell the user it is
+        else:
+            print(f"{ssn} is not valid Social Security Number") #if its valid then we tell the user it is
+        ans = input("Do you want to try another SSN? (Y/N): ")
+        if(ans.upper() == "N"):
+            break
 
-print("Welcome to the SSN Validator! \nMade by Juan Avila ID 1100378")
-while(True):
-    ssn = input("Write the SSN number you want to validate: ")
-    if(ValidateSSN(ssn)):
-        print(f"{ssn} is a valid Social Security Number") #if its valid then we tell the user it is
-    else:
-        print(f"{ssn} is not valid Social Security Number") #if its valid then we tell the user it is
-    ans = input("Do you want to try another SSN? (Y/N): ")
-    if(ans.upper() == "N"):
-        break
-
-print("Thanks for using my program! Have a nice day!")
-input()
+    print("Thanks for using my program! Have a nice day!")
+    input()
