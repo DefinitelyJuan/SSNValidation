@@ -1,4 +1,5 @@
-## README
+## SSNValidation
+
 Developed by Juan Avila, ID 1100378 for the subject "Tendencias en desarrollo de software (Lab)" IDS347L
 
 ### Project information
