@@ -7,7 +7,7 @@
 ### Tests
 #### Unit tests
 ##### Preconditions
-The tests will be run using an Ubuntu 22 virtual machine. The test will be performed automatically, running the test script from located inside the "tests" of the project, using the following script in the command line: 
+The tests will be run using an Ubuntu 22 virtual machine. The test will be performed automatically, running the test script located inside the "tests" folder of the project, using the following script in the command line: 
 
 	python3 -m unittest tests.test 
 	
